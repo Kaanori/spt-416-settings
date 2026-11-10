@@ -333,13 +333,13 @@
     "EnableHealth": true,
     "SkillProgMult": 0.9,
     "Health": {
-      "LeftArm": 300,
-      "RightArm": 300,
-      "Head": 325,
-      "Chest": 425,
-      "Stomach": 500,
-      "LeftLeg": 325,
-      "RightLeg": 325
+      "LeftArm": 60,
+      "RightArm": 60,
+      "Head": 35,
+      "Chest": 85,
+      "Stomach": 70,
+      "LeftLeg": 65,
+      "RightLeg": 65
     },
     "WeaponSkillMult": 1.25,
     "EnablePlayer": true,

@@ -8,6 +8,13 @@ single-player version of Escape from Tarkov), ready to copy into your own SPT fo
 > Anthropic, helped with the tuning, wrote the collection and sanitising scripts, and
 > prepared this package. No human expert has reviewed the values.
 
+**Download:** [latest release](https://github.com/Kaanori/spt-416-settings/releases/latest) | [VirusTotal report](https://www.virustotal.com/gui/file/bb46a581c2c1cc1907df9a7b44cfd7cf87f369bf58bec5c799f2719dd31d8e82)
+
+## Changelog
+
+* **v2026.11.10.2** - Player health back to default (SVM preset `Player.Health` no longer 5x).
+* **v2026.11.10** - first release.
+
 ## What is in here
 
 * **Settings only.** No mods, no DLLs, no assets, no profiles, no save games.
