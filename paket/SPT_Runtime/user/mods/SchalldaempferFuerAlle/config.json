@@ -1,0 +1,69 @@
+{
+  "_Anleitung": [
+    "Gilt fuer ALLE Schalldaempfer gleichzeitig, auch fuer die aus anderen Mods (z. B. WTT-Armory). Aenderungen wirken beim naechsten Serverstart.",
+    "Modus je Wert: aus = Originalwert | Wert = Zahl fest setzen | Plus = Original + Zahl | Prozent = Original x (1 + Zahl/100).",
+    "Prozent rechnet mit dem Vorzeichen des Originals: Ergonomie -20 und Prozent -50 ergibt -10, Rueckstoss -6 und Prozent 50 ergibt -9.",
+    "Original = der Wert ohne diese Mod, samt Aenderungen anderer Mods (z. B. SVM-Gewicht). Feste Zahlen von BetterSuppressors werden zurueckgenommen.",
+    "Min und Max begrenzen das Ergebnis. Dezimalzahlen mit Punkt schreiben (0.9, nicht 0,9).",
+    "Ausnahmen: Template-IDs, die ihre Originalwerte behalten. NurDiese: wenn nicht leer, werden NUR diese IDs angepasst."
+  ],
+  "_Guide": [
+    "Applies to ALL suppressors at once, including those added by other mods (e.g. WTT-Armory). Changes take effect on the next server start.",
+    "Mode per value: aus = original value | Wert = set to Zahl | Plus = original + Zahl | Prozent = original x (1 + Zahl/100). English names work too: off, set, add, percent.",
+    "Prozent keeps the sign of the original: ergonomics -20 with Prozent -50 gives -10, recoil -6 with Prozent 50 gives -9.",
+    "Original = the value without this mod, including changes by other mods (e.g. SVM weight). Fixed numbers set by BetterSuppressors are undone.",
+    "Min and Max clamp the result. Use a dot for decimals (0.9, not 0,9).",
+    "Ausnahmen (exclude): template IDs that keep their original values. NurDiese (only these): if not empty, ONLY these IDs are changed."
+  ],
+
+  "Parameter": {
+    "Ergonomics": {
+      "Modus": "Wert", "Zahl": 0, "Min": -50, "Max": 50,
+      "_de": "Ergonomie-Punkte der Waffe. Hoeher = besser. Original im Grundspiel -30 bis -2.",
+      "_en": "Weapon ergonomics points. Higher = better. Base-game originals -30 to -2."
+    },
+    "Recoil": {
+      "Modus": "aus", "Zahl": 0, "Min": -50, "Max": 50,
+      "_de": "Rueckstoss in Prozent. Niedriger (negativer) = weniger Rueckstoss. Original im Grundspiel -15 bis -1. Nie unter -100.",
+      "_en": "Recoil in percent. Lower (more negative) = less recoil. Base-game originals -15 to -1. Never below -100."
+    },
+    "Accuracy": {
+      "Modus": "Wert", "Zahl": 6, "Min": -50, "Max": 50,
+      "_de": "Genauigkeit in Prozent. Hoeher = genauer. Ganze Zahl (wird gerundet). Original im Grundspiel -5 bis +1.",
+      "_en": "Accuracy in percent. Higher = more accurate. Whole number (rounded). Base-game originals -5 to +1."
+    },
+    "Velocity": {
+      "Modus": "Wert", "Zahl": 6, "Min": -50, "Max": 50,
+      "_de": "Muendungsgeschwindigkeit in Prozent. Hoeher = schnellere Kugel (mehr Reichweite, kann Unterschallmunition ueberschallschnell machen). Original im Grundspiel 0,2 bis 1,2.",
+      "_en": "Muzzle velocity in percent. Higher = faster bullet (more range, can push subsonic ammo past the speed of sound). Base-game originals 0.2 to 1.2."
+    },
+    "Loudness": {
+      "Modus": "aus", "Zahl": 0, "Min": -100, "Max": 100,
+      "_de": "Lautstaerke. Niedriger = leiser. Wirkt mit SAIN auf die Hoerweite der Bots (in Metern dazugerechnet). Ganze Zahl. Original im Grundspiel -39 bis 0.",
+      "_en": "Loudness. Lower = quieter. With SAIN it changes how far bots hear the shot (added in meters). Whole number. Base-game originals -39 to 0."
+    },
+    "DurabilityBurn": {
+      "Modus": "Wert", "Zahl": 1, "Min": 0, "Max": 10,
+      "_de": "Faktor fuer den Verschleiss der Waffe je Schuss. 1 = neutral, niedriger = weniger Verschleiss. Original im Grundspiel 1,2 bis 2,15.",
+      "_en": "Factor for weapon wear per shot. 1 = neutral, lower = less wear. Base-game originals 1.2 to 2.15."
+    },
+    "HeatFactor": {
+      "Modus": "Wert", "Zahl": 0.9, "Min": 0, "Max": 10,
+      "_de": "Faktor fuer die Erhitzung je Schuss. 1 = neutral, niedriger = Waffe wird langsamer heiss. Original im Grundspiel 1,05 bis 1,34.",
+      "_en": "Factor for heat per shot. 1 = neutral, lower = weapon heats up more slowly. Base-game originals 1.05 to 1.34."
+    },
+    "CoolFactor": {
+      "Modus": "Wert", "Zahl": 0.92, "Min": 0, "Max": 10,
+      "_de": "Faktor fuer das Abkuehlen. 1 = neutral, HOEHER = kuehlt schneller ab (unter 1 = langsamer!). Original im Grundspiel 1,0 bis 1,2.",
+      "_en": "Factor for cooling down. 1 = neutral, HIGHER = cools faster (below 1 = slower!). Base-game originals 1.0 to 1.2."
+    },
+    "Weight": {
+      "Modus": "aus", "Zahl": 0, "Min": 0, "Max": 5,
+      "_de": "Gewicht in kg. Niedriger = leichter (Waffe und Inventar). Original im Grundspiel 0,13 bis 1,1.",
+      "_en": "Weight in kg. Lower = lighter (weapon and inventory). Base-game originals 0.13 to 1.1."
+    }
+  },
+
+  "Ausnahmen": [],
+  "NurDiese": []
+}

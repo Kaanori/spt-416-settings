@@ -1,0 +1,150 @@
+{
+  "SchemaVersion": 2,
+  "BuiltinZones": {},
+  "CustomZones": [
+    {
+      "Name": "Old Sawmill",
+      "Position": {
+        "x": -550,
+        "y": -200
+      },
+      "Radius": {
+        "Min": 300,
+        "Max": 600
+      },
+      "Force": {
+        "Min": -0.25,
+        "Max": 0.75
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": null
+    },
+    {
+      "Name": "Sawmill",
+      "Position": {
+        "x": 0,
+        "y": 0
+      },
+      "Radius": {
+        "Min": 400,
+        "Max": 800
+      },
+      "Force": {
+        "Min": -0.35,
+        "Max": 1.25
+      },
+      "Decay": 0.8,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": null
+    },
+    {
+      "Name": "HouseCamping",
+      "Position": {
+        "x": 400,
+        "y": 250
+      },
+      "Radius": {
+        "Min": 300,
+        "Max": 700
+      },
+      "Force": {
+        "Min": -0.25,
+        "Max": 0.75
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": null
+    },
+    {
+      "Name": "Scav base",
+      "Position": {
+        "x": 142,
+        "y": -736
+      },
+      "Radius": {
+        "Min": 300,
+        "Max": 600
+      },
+      "Force": {
+        "Min": -0.25,
+        "Max": 0.75
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": null
+    },
+    {
+      "Name": "Usec Base",
+      "Position": {
+        "x": 294,
+        "y": -450
+      },
+      "Radius": {
+        "Min": 300,
+        "Max": 600
+      },
+      "Force": {
+        "Min": -0.25,
+        "Max": 0.75
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": null
+    },
+    {
+      "Name": "Village",
+      "Position": {
+        "x": -470,
+        "y": -379
+      },
+      "Radius": {
+        "Min": 300,
+        "Max": 600
+      },
+      "Force": {
+        "Min": -0.25,
+        "Max": 0.75
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": null
+    },
+    {
+      "Name": "Lootspot",
+      "Position": {
+        "x": -196,
+        "y": 221
+      },
+      "Radius": {
+        "Min": 300,
+        "Max": 600
+      },
+      "Force": {
+        "Min": -0.25,
+        "Max": 0.75
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": null
+    }
+  ],
+  "Convergence": {
+    "Radius": {
+      "Min": 500,
+      "Max": 1250
+    },
+    "Force": {
+      "Min": 0.25,
+      "Max": 0.75
+    },
+    "Enabled": true
+  }
+}

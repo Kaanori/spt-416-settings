@@ -1,0 +1,11 @@
+{
+  "PersistentFaceAndVoice": true,
+  "PersistentClothing": false,
+  "EnableFriendRequests": true,
+  "FriendAcceptanceChance": 0.5,
+  "FriendActivityMultiplier": 1.4,
+  "OnlineRateMultiplier": 1,
+  "ProgressionThresholdSeconds": 3600,
+  "MaximumOfflineDays": 14,
+  "CompactMemory": true
+}

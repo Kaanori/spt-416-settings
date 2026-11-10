@@ -1,0 +1,7 @@
+{
+  "_hinweis": "faktor 1.5 = 50 Prozent mehr Faecher. Aenderung wirkt beim naechsten Serverstart.",
+  "faktor": 1.5,
+  "_hinweis breiteBehalten": "true = Faecher behalten die Original-Breite und wachsen nur nach unten (sonst rutschen breite Rucksaecke im Inventar rechts aus dem Bild). Vor dem Umschalten nichts in den zusaetzlichen rechten Spalten liegen lassen.",
+  "breiteBehalten": true,
+  "ausnahmen": []
+}

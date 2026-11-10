@@ -1,0 +1,51 @@
+{
+  "SchemaVersion": 1,
+  "Gameplay": {
+    "Downed": {
+      "CriticalStateSeconds": 180,
+      "ApplyContusionOnDowned": true,
+      "ApplyStunOnDowned": true,
+      "DownedMovementSpeedPercent": 50,
+      "BlockUiWhenDowned": true,
+      "UnconsciousOnDowned": false,
+      "MaxLivesPerRaid": 5
+    },
+    "Self": {
+      "RequireStim": false,
+      "ConsumeStim": false,
+      "Enabled": true,
+      "HoldSeconds": 8,
+      "LivesCost": 1,
+      "AllowInsufficientLives": false,
+      "RestoreBodyParts": true,
+      "RestorePercent": {
+        "Head": 20,
+        "Chest": 35,
+        "Stomach": 35,
+        "Arms": 35,
+        "Legs": 35
+      },
+      "RemoveLightBleeds": false,
+      "RemoveHeavyBleeds": true,
+      "RemoveLegFractures": false,
+      "RemoveArmFractures": false,
+      "InvulnerabilityDurationSeconds": 10,
+      "InvulnerabilitySpeedPercent": 60,
+      "CooldownSeconds": 240,
+      "ApplyContusionOnRevive": true,
+      "ContusionDurationSeconds": 10,
+      "ApplyPainOnRevive": true,
+      "PainDurationSeconds": 30
+    },
+    "StimItemIds": [],
+    "Protection": {
+      "BlockDeathInCritical": true,
+      "EnableGodMode": true,
+      "EnableGhostMode": true,
+      "DeathFromHeadshotChance": 0
+    },
+    "Development": {
+      "DebugMode": false
+    }
+  }
+}

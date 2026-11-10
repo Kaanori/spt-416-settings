@@ -1,0 +1,51 @@
+{
+  "surgery": {
+    "enabled": true,
+    "keepMaxHealthPercent": 100
+  },
+  "medUseTime": {
+    "enabled": true,
+    "multiplier": 1.0,
+    "minSeconds": 0.8,
+    "surgicalKitMultiplier": null,
+    "surgicalKitsOnly": true
+  },
+  "drugBuffs": {
+    "enabled": true,
+    "multiplier": 2.0
+  },
+  "categories": {
+    "allMedical": {
+      "enable": false,
+      "useTimeMultiplier": null,
+      "hpResource": null,
+      "hpResourceRate": null,
+      "duration": null,
+      "uses": null
+    },
+    "injectors": {
+      "enable": false,
+      "useTimeMultiplier": null,
+      "hpResource": null,
+      "hpResourceRate": null,
+      "duration": null,
+      "uses": null
+    },
+    "pills": {
+      "enable": false,
+      "useTimeMultiplier": null,
+      "hpResource": null,
+      "hpResourceRate": null,
+      "duration": null,
+      "uses": null
+    },
+    "medkits": {
+      "enable": false,
+      "useTimeMultiplier": null,
+      "hpResource": null,
+      "hpResourceRate": null,
+      "duration": null,
+      "uses": null
+    }
+  }
+}

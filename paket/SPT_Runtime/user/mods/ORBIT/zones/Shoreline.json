@@ -1,0 +1,103 @@
+{
+  "SchemaVersion": 2,
+  "BuiltinZones": {
+    "ZoneMeteoStation": {
+      "Radius": {
+        "Min": 150,
+        "Max": 500
+      },
+      "Force": {
+        "Min": -0.25,
+        "Max": 0.75
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": "base"
+    },
+    "ZoneSmuglers": {
+      "Radius": {
+        "Min": 150,
+        "Max": 500
+      },
+      "Force": {
+        "Min": -0.25,
+        "Max": 0.75
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": "base"
+    }
+  },
+  "CustomZones": [
+    {
+      "Name": "Resort",
+      "Position": {
+        "x": -250,
+        "y": -100
+      },
+      "Radius": {
+        "Min": 300,
+        "Max": 800
+      },
+      "Force": {
+        "Min": -0.25,
+        "Max": 0.75
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": null
+    },
+    {
+      "Name": "Boat",
+      "Position": {
+        "x": -316,
+        "y": 484
+      },
+      "Radius": {
+        "Min": 200,
+        "Max": 600
+      },
+      "Force": {
+        "Min": -0.25,
+        "Max": 0.75
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": null
+    },
+    {
+      "Name": "Villas",
+      "Position": {
+        "x": 128,
+        "y": 112
+      },
+      "Radius": {
+        "Min": 150,
+        "Max": 500
+      },
+      "Force": {
+        "Min": -0.25,
+        "Max": 0.75
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": null
+    }
+  ],
+  "Convergence": {
+    "Radius": {
+      "Min": 750,
+      "Max": 1500
+    },
+    "Force": {
+      "Min": 0.25,
+      "Max": 0.75
+    },
+    "Enabled": true
+  }
+}

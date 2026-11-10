@@ -1,0 +1,7 @@
+{
+  "StartingLevel": 1,
+  "HideFindItemTasks": true,
+  "RemoveFoundInRaidRequirement": true,
+  "PrerequisiteQuestCompletionRequired": true,
+  "PrerequisiteQuestCompletionVisibility": true
+}

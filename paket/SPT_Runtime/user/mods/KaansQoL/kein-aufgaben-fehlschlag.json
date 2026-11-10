@@ -1,0 +1,19 @@
+{
+  "_Hinweis": "Aenderungen wirken nach Server-Neustart (und Spiel-Neustart, weil das Spiel die Aufgaben beim Anmelden laedt).",
+
+  "Keine Fehlschlaege": true,
+  "Keine Zeitlimits": true,
+  "Auch Taeglich/Woechentlich": true,
+  "Story-Verzweigungen behalten": true,
+
+  "_Hinweis Ein-Raid-Pflicht": "true = Ziele mit 'in einem Raid' zaehlen ueber mehrere Raids weiter (macht Aufgaben leichter, ist kein Fehlschlag).",
+  "Ein-Raid-Pflicht aufheben": false,
+
+  "_Hinweis Wartezeiten": "true = Folgeaufgaben sind sofort statt nach X Stunden verfuegbar (z. B. Buechsenmacher). Gilt nur fuer neu freigeschaltete.",
+  "Keine Wartezeiten": false,
+
+  "_Hinweis Ausnahmen": "Quest-IDs oder interne Namen (QuestName), die dieser Mod nicht anfasst.",
+  "Ausnahmen": [],
+
+  "Ausfuehrliches Protokoll": true
+}

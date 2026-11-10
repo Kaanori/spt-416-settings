@@ -1,0 +1,182 @@
+{
+  "Floors": {
+    "TarkovStreets": {
+      "ZoneSW01": "base",
+      "ZoneConstruction": "base",
+      "ZoneCarShowroom": "base",
+      "ZoneCinema": "base",
+      "ZoneFactory": "base",
+      "ZoneHotel_1": "base",
+      "ZoneHotel_2": "base",
+      "ZoneConcordia_1": "base",
+      "ZoneConcordiaParking": "base",
+      "ZoneSnipeCinema": "4th-floor",
+      "ZoneSnipeCarShowroom": "2nd-floor",
+      "ZoneSnipeBuilding": "4th-floor",
+      "ZoneSnipeSW01": "5th-floor",
+      "ZoneColumn": "base",
+      "ZoneSW00": "base",
+      "ZoneStilo": "base",
+      "ZoneCard1": "base",
+      "ZoneSnipeStilo": "2nd-floor",
+      "ZoneSnipeCard": "5th-floor",
+      "ZoneMvd": "base",
+      "ZoneClimova": "base"
+    },
+    "Lighthouse": {
+      "Zone_Containers": "base",
+      "Zone_Rocks": "base",
+      "Zone_Chalet": "base",
+      "Zone_Village": "base",
+      "Zone_Bridge": "base",
+      "Zone_OldHouse": "base",
+      "Zone_LongRoad": "base",
+      "Zone_RoofBeach": "base",
+      "Zone_DestroyedHouse": "base",
+      "Zone_RoofContainers": "base",
+      "Zone_Blockpost": "base",
+      "Zone_RoofRocks": "base",
+      "Zone_TreatmentRocks": "base",
+      "Zone_TreatmentContainers": "base",
+      "Zone_TreatmentBeach": "base",
+      "Zone_Hellicopter": "base",
+      "Zone_SniperPeak": "base",
+      "Zone_Island": "base"
+    },
+    "Woods": {
+      "ZoneWoodCutter": "base",
+      "ZoneHouse": "base",
+      "ZoneBigRocks": "base",
+      "ZoneRoad": "base",
+      "ZoneHighRocks": "base",
+      "ZoneMiniHouse": "base",
+      "ZoneRedHouse": "base",
+      "ZoneScavBase2": "base",
+      "ZoneClearVill": "base",
+      "ZoneBrokenVill": "base",
+      "ZoneUsecBase": "base",
+      "ZoneStoneBunker": "base",
+      "ZoneDepo": "base"
+    },
+    "RezervBase": {
+      "ZoneRailStrorage": "base|2nd-floor|bunkers",
+      "ZonePTOR1": "base|3rd-floor",
+      "ZonePTOR2": "base|3rd-floor",
+      "ZoneBarrack": "base|2nd-floor|3rd-floor",
+      "ZoneBunkerStorage": "base|bunkers",
+      "ZoneSubStorage": "bunkers",
+      "ZoneSubCommand": "bunkers"
+    },
+    "laboratory": {
+      "BotZoneBasement": "technical",
+      "BotZoneFloor1": "base",
+      "BotZoneFloor2": "second-level",
+      "BotZoneGate1": "base",
+      "BotZoneGate2": "base"
+    },
+    "Sandbox": {
+      "ZoneSandSnipeCenter": "3rd-floor",
+      "ZoneSandbox": "base|garage|2nd-floor"
+    },
+    "bigmap": {
+      "ZoneBrige": "base",
+      "ZoneCrossRoad": "base",
+      "ZoneDormitory": "base|2nd-floor|3rd-floor",
+      "ZoneGasStation": "base",
+      "ZoneFactoryCenter": "base",
+      "ZoneFactorySide": "base|2nd-floor",
+      "ZoneOldAZS": "base",
+      "ZoneSnipeBrige": "base",
+      "ZoneSnipeTower": "4th-floor",
+      "ZoneSnipeFactory": "base|2nd-floor",
+      "ZoneBlockPost": "base",
+      "ZoneBlockPostSniper": "2nd-floor",
+      "ZoneTankSquare": "base|2nd-floor|3rd-floor",
+      "ZoneWade": "base",
+      "ZoneCustoms": "base",
+      "ZoneScavBase": "base|2nd-floor"
+    },
+    "Lighthouse@rework": {
+      "Zone_Containers": "base",
+      "Zone_Rocks": "base",
+      "Zone_Chalet": "base",
+      "Zone_Village": "base",
+      "Zone_Bridge": "base",
+      "Zone_OldHouse": "base",
+      "Zone_LongRoad": "base",
+      "Zone_DestroyedHouse": "base",
+      "Zone_Blockpost": "base",
+      "Zone_TreatmentRocks": "base",
+      "Zone_TreatmentContainers": "base",
+      "Zone_TreatmentBeach": "base",
+      "Zone_Hellicopter": "base",
+      "Zone_Island": "base"
+    },
+    "Interchange@rework": {
+      "ZoneCenterBot": "2nd-floor|3rd-floor",
+      "ZoneIDEA": "2nd-floor",
+      "ZoneCenter": "3rd-floor",
+      "ZoneTagilla": "base",
+      "ZoneIDEAPark": "base",
+      "ZoneTrucks": "base|2nd-floor",
+      "ZoneRoad": "base",
+      "ZoneOLI": "base|2nd-floor",
+      "ZoneGoshan": "2nd-floor",
+      "ZoneOLIPark": "base",
+      "ZonePowerStation": "base",
+      "ZoneBearCamp": "base"
+    },
+    "factory4_day": {
+      "BotZone": "base|2nd-floor|3rd-floor|tunnels"
+    },
+    "factory4_night": {
+      "BotZone": "base|2nd-floor|3rd-floor|tunnels"
+    },
+    "Sandbox_high": {
+      "ZoneSandSnipeCenter": "3rd-floor",
+      "ZoneSandbox": "base|garage|2nd-floor",
+      "ZoneSandSnipeCenter2": "3rd-floor"
+    },
+    "Shoreline": {
+      "ZoneGreenHouses": "base",
+      "ZoneIsland": "base",
+      "ZoneForestGasStation": "base",
+      "ZoneGasStation": "base",
+      "ZonePowerStation": "base",
+      "ZoneBunker": "base",
+      "ZoneBusStation": "base",
+      "ZonePort": "base",
+      "ZoneBunkeSniper": "base",
+      "ZoneForestTruck": "base",
+      "ZonePowerStationSniper": "base",
+      "ZoneForestSpawn": "base",
+      "ZoneSanatorium1": "base|underground",
+      "ZoneSanatorium2": "base",
+      "ZoneStartVillage": "base",
+      "ZoneMeteoStation": "base",
+      "ZoneRailWays": "base",
+      "ZoneSmuglers": "base",
+      "ZonePassClose": "base",
+      "ZoneTunnel": "base"
+    },
+    "Labyrinth": {
+      "BotZone": "base"
+    }
+  },
+  "Revisions": {
+    "TarkovStreets": 0,
+    "Lighthouse": 0,
+    "Woods": 0,
+    "RezervBase": 1,
+    "laboratory": 0,
+    "Sandbox": 0,
+    "bigmap": 1,
+    "Lighthouse@rework": 0,
+    "Interchange@rework": 0,
+    "factory4_day": 0,
+    "factory4_night": 0,
+    "Sandbox_high": 0,
+    "Shoreline": 0,
+    "Labyrinth": 0
+  }
+}

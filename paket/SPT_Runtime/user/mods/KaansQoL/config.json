@@ -1,0 +1,28 @@
+{
+  "_hint": "Kaan's QoL (server part). Takes effect on the next server start, no rebuild needed. balsamDuration: minutes = how long Golden Star Balm effects last, effects = which damage effects get that duration. allExtracts: makes every extract always reachable (chance 100 %, all entry points, time windows open; trains stay excluded). noQuestFailures: quests no longer fail by playing (kills, death, reputation, time limits); story branches (quest-vs-quest, dialogue choices) are kept on purpose. Set enabled to false to switch it off. exceptions = quest ids or internal names that are not touched; liftSingleRaid / noWaitTimes are extra and off by default.",
+  "balsamDuration": {
+    "enabled": true,
+    "minutes": 15,
+    "effects": [
+      "Pain",
+      "RadExposure"
+    ]
+  },
+  "allExtracts": {
+    "enabled": true,
+    "chance": true,
+    "entryPoints": true,
+    "timeWindows": true
+  },
+  "noQuestFailures": {
+    "enabled": true,
+    "noFailures": true,
+    "noTimeLimits": true,
+    "includeDailies": true,
+    "keepStoryBranches": true,
+    "liftSingleRaid": false,
+    "noWaitTimes": false,
+    "exceptions": [],
+    "verboseLog": true
+  }
+}

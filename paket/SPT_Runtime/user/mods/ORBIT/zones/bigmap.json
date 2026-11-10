@@ -1,0 +1,110 @@
+{
+  "SchemaVersion": 2,
+  "BuiltinZones": {
+    "ZoneDormitory": {
+      "Radius": {
+        "Min": 250,
+        "Max": 300
+      },
+      "Force": {
+        "Min": -0.75,
+        "Max": 1.5
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": "base|2nd-floor|3rd-floor"
+    },
+    "ZoneScavBase": {
+      "Radius": {
+        "Min": 350,
+        "Max": 400
+      },
+      "Force": {
+        "Min": -0.75,
+        "Max": 1.5
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": "base|2nd-floor"
+    },
+    "ZoneOldAZS": {
+      "Radius": {
+        "Min": 100,
+        "Max": 150
+      },
+      "Force": {
+        "Min": -0.25,
+        "Max": 0.5
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": "base"
+    },
+    "ZoneGasStation": {
+      "Radius": {
+        "Min": 200,
+        "Max": 250
+      },
+      "Force": {
+        "Min": -0.25,
+        "Max": 0.75
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": "base"
+    }
+  },
+  "CustomZones": [
+    {
+      "Position": {
+        "x": -200,
+        "y": -100
+      },
+      "Radius": {
+        "Min": 350,
+        "Max": 400
+      },
+      "Force": {
+        "Min": -0.25,
+        "Max": 0.5
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": null
+    },
+    {
+      "Position": {
+        "x": 550,
+        "y": 125
+      },
+      "Radius": {
+        "Min": 150,
+        "Max": 200
+      },
+      "Force": {
+        "Min": -0.25,
+        "Max": 0.5
+      },
+      "Decay": 1,
+      "KillMains": true,
+      "BotTypes": null,
+      "FloorId": null
+    }
+  ],
+  "Convergence": {
+    "Radius": {
+      "Min": 200,
+      "Max": 400
+    },
+    "Force": {
+      "Min": 0,
+      "Max": 0.5
+    },
+    "Enabled": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "medUseTime": { "multiplier": 1, "surgicalKitsOnly": true, "surgicalKitMultiplier": null },
+  "surgery": { "enabled": true, "keepMaxHealthPercent": 100 },
+  "drugBuffs": { "enabled": true, "multiplier": 2 },
+  "categoryOverrides": {},
+  "itemOverrides": {},
+  "injectorBuffs": {}
+}

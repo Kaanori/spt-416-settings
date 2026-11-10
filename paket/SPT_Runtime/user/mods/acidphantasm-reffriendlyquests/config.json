@@ -1,0 +1,6 @@
+﻿{
+  "ChangeLoyaltyLevelRequirements": true,
+  "LoyaltyLevelMultiplier": 0.85,
+  "AddLegaMedalRewards": true,
+  "GpCoinMultiplier": 1
+}
